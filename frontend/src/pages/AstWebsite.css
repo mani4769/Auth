@@ -1,0 +1,158 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+  }
+  
+  nav ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: #575757;
+  }
+  
+  nav ul li h2 {
+    color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .first img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .second h1 {
+    font-size: 70px;
+    color: #d38585;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .images img {
+    height: 32vh;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  .attedence {
+    margin: 20px 0;
+  }
+  
+  .attedence h3 {
+    color: purple;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .TECHNOLOGYattedence1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .TECHNOLOGYattedence2, .TECHNOLOGYattedence3 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .TECHNOLOGYattedence3 ul {
+    padding: 0;
+  }
+  
+  .TECHNOLOGYattedence3 ul li {
+    margin-bottom: 10px;
+  }
+  
+  .TECHNOLOGYattedence3 ul .fire-streak {
+    color: red;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .streaksheading {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .streaksheading .technology, .streaksheading .technology2 {
+    text-align: center;
+  }
+  
+  .allprojects, .myprojects {
+    margin: 20px 0;
+  }
+  
+  .allprojects img, .myprojects img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .allprojects h1, .myprojects h1 {
+    text-align: center;
+  }
+  
+  .allprojects p, .myprojects p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
